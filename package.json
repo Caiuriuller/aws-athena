@@ -1,0 +1,21 @@
+{
+  "name": "aws-athena",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "main": "index.js",
+  "repository": "git@github.com:Caiuriuller/aws-athena.git",
+  "author": "Caiuri Uller <caiuri@multiplier.com.br>",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-athena": "^3.335.0",
+    "athena-express": "^7.1.5",
+    "aws-sdk": "^2.1381.0",
+    "dotenv": "^16.0.3",
+    "eslint": "^7.32.0 || ^8.2.0",
+    "parquetjs": "^0.11.2"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.2"
+  }
+}
